@@ -1,6 +1,7 @@
 ## ⚡ Stochastic Gradient Descent (SGD)
 
-![Parabola Shape](Image%201.png)
+![Parabola Shape](Image1.png)
+
 
 
 Stochastic Gradient Descent works similarly to Batch Gradient Descent, but instead of looking at the entire dataset, it updates the model using **one data point at a time**.  
