@@ -13,7 +13,7 @@ Think of the loss function like a **bowl** again.
 
 - Instead of taking a smooth step guided by the whole bowl, SGD takes a step based on just **one point on the bowl**.  
 - This makes the path **zig-zag**, bouncing around as it moves toward the minimum.  
-- Even though it’s noisier, this randomness can help **avoid getting stuck in local minima**.  
+- Even though it’s noisier, this randomness will help **avoid getting stuck in local minima**.  
 - Overall, it’s faster per iteration, but requires more careful tuning of the learning rate.
 
 ---
