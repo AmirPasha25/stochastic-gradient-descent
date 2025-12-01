@@ -20,6 +20,6 @@ Think of the loss function like a **bowl** again.
 
 ## ✅ Key Points
 - Updates parameters **per sample**, not per dataset  
-- Faster but noisier than batch updates  
+- Faster but noisier than batch updates - uses noise to jump out of local minimas  
 - Can escape small “bumps” or local minima due to its randomness  
 - Often used in **large datasets** where computing the full batch gradient is too slow
